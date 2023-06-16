@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+                table{
+    -webkit-box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    border: solid 2px gray;
+            }
+
+            table thead th{
+            background-color:gray;
+            color: white;
+        }
+
+        table tbody tr:nth-child(even) td{
+
+background-color: silver;
+        }
+        table tbody tr:hover td{
+
+background-color: rgba(5, 5, 5, 0.788);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="MENU" id = "Menu-lateral" >
+          <font size="5"><strong><ul>
+           
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Index.html">Pagina Principal</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Sobre.html">Sobre a Clínica</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Horário.html">Horário de Atendimento</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Contato.html">Contato</a></li><br>
+            </ul></strong></font>
+        </div>
+
+        <div class="main">
+            <div align = "center" class="header">
+               <img width="500" height="210" src="https://accorsisarue.com.br/wp-content/uploads/2021/07/pacientes-medicos-divulgacao.jpg"/>
+            </div>
+    
+            <div class="content">
+               <p>TELEFONE (WhatsApp) - 15 99806-8997</p>
+               <p>ENDEREÇO - Sorocaba, R. Antônio Soares, 132</p>
+
+               <form method="get">
+                <label>Nome: </label><input type="text"><br>
+                <label>Email: </label><input type="email"><br>
+                <label>Assunto: </label><input type="text"><br><br>
+                <label>Mensagem: </label>
+                <textarea rows="10" cols="30"></textarea><br>
+    <button type="reset">Limpar</button>
+    <button type="submit">Enviar</button>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.6951689678385!2d-47.46668882446273!3d-23.50748675961556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58ab9834a9ab7%3A0x6b320d18475992d3!2sClinica%20Aulus-Sa%C3%BAde%20e%20Espiritualidade!5e0!3m2!1spt-BR!2sbr!4v1681947646784!5m2!1spt-BR!2sbr" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div>
+
+    <div class="footer" id ="rodapé" align = "center">
+            
+        <font size="3"><strong>
+        <p>ENDEREÇO: Sorocaba, R. Antônio Soares, 132</p>
+        <p>TELEFONE: 15 99806-8997</p>
+        <p>ATENDIMENTO: Seg a Sex 08:00 as 18:00</p>
+        <p>EMAIL: aulus@gmail.com</p>
+        </font></strong>
+       
+    </div>
+</body>
+</html>

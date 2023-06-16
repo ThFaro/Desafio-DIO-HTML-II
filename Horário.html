@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+
+    <style>
+                table{
+    -webkit-box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    box-shadow: 20px 14px 18px 4px rgba(0,0,0,0.75);
+    border: solid 2px gray;
+            }
+
+            table thead th{
+            background-color:gray;
+            color: white;
+        }
+
+        table tbody tr:nth-child(even) td{
+
+background-color: silver;
+        }
+        table tbody tr:hover td{
+
+background-color: rgba(5, 5, 5, 0.788);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div class="MENU" id = "Menu-lateral" >
+          <font size="5"><strong><ul>
+           
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Index.html">Pagina Principal</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Sobre.html">Sobre a Clínica</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Horário.html">Horário de Atendimento</a></li><br><br><br><br><br><br>
+
+                <li><a href="http://127.0.0.1:5500/TRILHA-HTML-MODULO-2/Contato.html">Contato</a></li><br>
+            </ul></strong></font>
+        </div>
+
+        <div class="main">
+            <div align = "center" class="header">
+               <img width="500" height="210" src="https://accorsisarue.com.br/wp-content/uploads/2021/07/pacientes-medicos-divulgacao.jpg"/>
+            </div>
+    
+            <div class="content">
+                <br><br>
+
+                <table border = "2" width = "450" align = "center" >
+                    <caption><strong>HORÁRIOS</strong></caption>
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                         </tr>
+                    </thead>
+            
+             
+            
+                     <tbody>
+                        <tr id="1">
+                            <td>Psiquiatria</td>
+                            <td>8h-19h</td>
+                            <td>8h-14h</td>
+                            <td>------</td>
+                        </tr>
+                        <tr id="2">
+                            <td>Clínica Médica</td>
+                            <td>8h-18h</td>
+                            <td>8h-15h</td>
+                            <td>8h-12h</td>
+                        </tr>
+                        <tr id="3">
+                            <td>Cardiologia</td>
+                            <td>8h-18h</td>
+                            <td>------</td>
+                            <td>8h-14h</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Dermatologia</td>
+                            <td>8h-19h</td>
+                            <td>------</td>
+                            <td>8h-12h</td>
+                        </tr>
+                        <tr id="4">
+                            <td>Geriatria</td>
+                            <td>8h-19h</td>
+                            <td>------</td>
+                            <td>8h-12h</td>
+                        </tr>
+                    </tbody>
+                      </table>
+
+            </div>
+    
+            <div class="footer" id ="rodapé" align = "center">
+            
+                <font size="3"><strong>
+                <p>ENDEREÇO: Sorocaba, R. Antônio Soares, 132</p>
+                <p>TELEFONE: 15 99806-8997</p>
+                <p>ATENDIMENTO: Seg a Sex 08:00 as 18:00</p>
+                <p>EMAIL: aulus@gmail.com</p>
+                </font></strong>
+               
+            </div>
+        </div>
+    </div>
+</body>
+</html>
